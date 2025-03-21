@@ -1,19 +1,23 @@
 html {
-  color: #b5b5b5;
+  color: #f0f0f0;
   background-color: #111;
   font-family: "Helvetica Neue", -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
 
 .red {
-  color: #b52512;
+  color: #ff001e;
+}
+
+.dark-red {
+  color: #c70017
 }
 
 .green {
-  color: #28b028;
+  color: #26ff00;
 }
 
 .blue {
-  color: #285cb0;
+  color: #42c2f5;
 }
 
 .text-center {
@@ -32,4 +36,8 @@ h1,
 h2,
 h3 {
   line-height: 1.2;
+}
+
+a {
+  color: #42c2f5;
 }
