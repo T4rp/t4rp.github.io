@@ -32,6 +32,8 @@ def render_content(item):
   with open(dest_path, "w") as f:
     f.write(rendered_content)
 
+for item in os.listdir(CONTENT_DIR):
+  render_content(item)
 
 render_content("markdown-tester.md")
 render_content("blogs.md")
