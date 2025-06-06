@@ -35,9 +35,5 @@ def render_content(item):
 for item in os.listdir(CONTENT_DIR):
   render_content(item)
 
-render_content("markdown-tester.md")
-render_content("blogs.md")
-render_content("index.html")
-
 shutil.copytree(path.join(".", "styles"), DEST_DIR, dirs_exist_ok=True)
 shutil.copytree(path.join(".", "scripts"), DEST_DIR, dirs_exist_ok=True)
