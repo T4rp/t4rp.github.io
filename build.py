@@ -32,6 +32,8 @@ def render_content(item):
   with open(dest_path, "w") as f:
     f.write(rendered_content)
 
+os.makedirs(DEST_DIR)
+
 for item in os.listdir(CONTENT_DIR):
   render_content(item)
 
